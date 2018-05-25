@@ -1,0 +1,1052 @@
+<!–– This is used with the Make theme panels option, with one bit of html per panel. Final product may need a custom .php template in the child them to inject stuff into the page header.-->
+
+<!-- panel one help sample. needs to be coded to auto generate from the data base. -->
+this would be a table similar to  the existing table... I big ole list of all the things. Pretty like on the production site... below is just a basic.
+<div class="asset-list">
+<h2>Asset list</h2>
+<table id="tfhover" class="tftable" border="1">
+<tbody>
+<tr>
+<th>ID</th>
+<th>log</th>
+<th>Name</th>
+<th>Status</th>
+</tr>
+<tr style="background-color: rgb(255, 255, 255);">
+<td><a href="http://wiki.acemonstertoys.org/AMT001" target="_blank" name="AMT001">AMT001</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT001.log" target="_blank">[log]</a></td>
+<td>Big Red Laser</td>
+<td>Up. New honeycomb, heavier and sharper so be careful. Ongoing beam alignment issues, cutting great front left, not so great back right. [joshr @ 5/5/2018 17:34]</td>
+</tr>
+<tr style="background-color: rgb(255, 255, 255);">
+<td><a href="http://wiki.acemonstertoys.org/AMT002" target="_blank" name="AMT002">AMT002</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT002.log" target="_blank">[log]</a></td>
+<td>MakerBot Replicator 2</td>
+<td>up - Cleared the jam [mkeveney @ 10/5/17 16:21]</td>
+</tr>
+<tr style="background-color: rgb(255, 255, 255);">
+<td><a href="http://wiki.acemonstertoys.org/AMT003" target="_blank" name="AMT003">AMT003</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT003.log" target="_blank">[log]</a></td>
+<td>Type A Machines Series 1 2013</td>
+<td>Up. Thanks CConstantine for the help! [mkeveney @ 2/9/18 13:35]</td>
+</tr>
+<tr style="background-color: rgb(255, 255, 255);">
+<td><a href="http://wiki.acemonstertoys.org/AMT004" target="_blank" name="AMT004">AMT004</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT004.log" target="_blank">[log]</a></td>
+<td>Pfaff 145 Sewing Machine</td>
+<td>UP foot replaced [crafty @ 10/1/17 16:53]</td>
+</tr>
+<tr style="background-color: rgb(255, 255, 255);">
+<td><a href="http://wiki.acemonstertoys.org/AMT005" target="_blank" name="AMT005">AMT005</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT005.log" target="_blank">[log]</a></td>
+<td>Honeywell Air Purifier #1</td>
+<td>cleaned 1/2/18 @ 14:30 [loristein @ 1/2/18 18:21]</td>
+</tr>
+<tr style="background-color: rgb(255, 255, 255);">
+<td><a href="http://wiki.acemonstertoys.org/AMT006" target="_blank" name="AMT006">AMT006</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT006.log" target="_blank">[log]</a></td>
+<td>Brother Sewing Machine</td>
+<td>Up - Now 2G and 5G [brycenesbitt @ 10/17/16 15:32]</td>
+</tr>
+<tr style="background-color: rgb(255, 255, 255);">
+<td><a href="http://wiki.acemonstertoys.org/AMT007" target="_blank" name="AMT007">AMT007</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT007.log" target="_blank">[log]</a></td>
+<td>JUKI Serger Sewing Machine</td>
+<td>Up New needles bought today [crafty @ 4/20/17 18:56]</td>
+</tr>
+<tr style="background-color: rgb(255, 255, 255);">
+<td><a href="http://wiki.acemonstertoys.org/AMT008" target="_blank" name="AMT008">AMT008</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT008.log" target="_blank">[log]</a></td>
+<td>Singer Prelude Sewing machine</td>
+<td>retired. gone. [crafty @ 10/14/16 13:34]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT009" target="_blank" name="AMT009">AMT009</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT009.log" target="_blank">[log]</a></td>
+<td>Kenmore Sewing machine</td>
+<td>retired. gone. [crafty @ 10/14/16 13:34]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT010" target="_blank" name="AMT010">AMT010</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT010.log" target="_blank">[log]</a></td>
+<td>Desktop Projector</td>
+<td>retired. disposed of. [crafty @ 10/14/16 13:36]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT011" target="_blank" name="AMT011">AMT011</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT011.log" target="_blank">[log]</a></td>
+<td>Industrial Chiller</td>
+<td>added water, checked air filters. [joshr @ 12/10/17 12:10]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT012" target="_blank" name="AMT012">AMT012</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT012.log" target="_blank">[log]</a></td>
+<td>Maker Bot Supply cabinet</td>
+<td>Up fence bent [crafty @ 7/30/17 11:41]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT013" target="_blank" name="AMT013">AMT013</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT013.log" target="_blank">[log]</a></td>
+<td>RFID reader - Door Pi stuff Ste. 113</td>
+<td>Up [theperfectstraw @ 2/13/18 14:57]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT014" target="_blank" name="AMT014">AMT014</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT014.log" target="_blank">[log]</a></td>
+<td>Laptop for Laser cutter</td>
+<td>Gone [theperfectstraw @ 2/13/18 14:58]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT015" target="_blank" name="AMT015">AMT015</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT015.log" target="_blank">[log]</a></td>
+<td>Desktop for 3D Printing</td>
+<td>Gone [theperfectstraw @ 2/12/18 14:07]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT016" target="_blank" name="AMT016">AMT016</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT016.log" target="_blank">[log]</a></td>
+<td>Rockwell Model 14 BandSaw</td>
+<td>up - table has been waxed 12/16/17 [d_limiter @ 12/18/17 16:10]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT017" target="_blank" name="AMT017">AMT017</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT017.log" target="_blank">[log]</a></td>
+<td>Delta shopmaster Drill Press</td>
+<td>Gone - Returned to owner [crafty @ 12/19/17 09:51]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT018" target="_blank" name="AMT018">AMT018</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT018.log" target="_blank">[log]</a></td>
+<td>Rigid oscillating belt/spindle sander</td>
+<td>Gone [@crafty @ 11/26/16 11:15]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT021" target="_blank" name="AMT021">AMT021</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT021.log" target="_blank">[log]</a></td>
+<td>Shop-Vac Ultra Pro</td>
+<td>Shop Vac on/off switch janky; problem identified as internal rocker switch operated by external rocker. [tgray @ 5/3/2018 14:28]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT024" target="_blank" name="AMT024">AMT024</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT024.log" target="_blank">[log]</a></td>
+<td>Delta 50-850 Dust collector with Wynn canister filter</td>
+<td>Dust collector up and running. [d_limiter @ 2/6/18 21:54]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT025" target="_blank" name="AMT025">AMT025</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT025.log" target="_blank">[log]</a></td>
+<td>Switch - NETGEAR</td>
+<td>Up [theperfectstraw @ 2/12/18 15:16]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT026" target="_blank" name="AMT026">AMT026</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT026.log" target="_blank">[log]</a></td>
+<td>Cisco router</td>
+<td>Gone [theperfectstraw @ 2/12/18 14:34]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT027" target="_blank" name="AMT027">AMT027</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT027.log" target="_blank">[log]</a></td>
+<td>RFID sheevaplug - 214 Door</td>
+<td>Up - RFID reader replaced. Good short term fix. Need more sustainable long term solution. See FATT project. [crafty @ 8/19/17 10:17]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT028" target="_blank" name="AMT028">AMT028</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT028.log" target="_blank">[log]</a></td>
+<td>CNC Router</td>
+<td>Down - Computer full of sawdust. Fire hazard must be remedied before goes back into use. [crafty @ 4/26/2018 10:54]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT029" target="_blank" name="AMT029">AMT029</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT029.log" target="_blank">[log]</a></td>
+<td>CNC mini mill</td>
+<td>up. Tool inspected and tested. Oiled and wiped down mill. [davidl @ 1/4/18 20:50]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT030" target="_blank" name="AMT030">AMT030</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT030.log" target="_blank">[log]</a></td>
+<td>Jet Metal Lathe</td>
+<td>Up and running [Aleks @ 3/5/18 17:05]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT031" target="_blank" name="AMT031">AMT031</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT031.log" target="_blank">[log]</a></td>
+<td>Desktop for GUIDO / BIG CNC machine</td>
+<td>DOWN &amp; OUT. Permanently retired. Full of dust, no longer boots. Replaced by AMT069 [connor @ 4/26/2018 16:17]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT032" target="_blank" name="AMT032">AMT032</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT032.log" target="_blank">[log]</a></td>
+<td>Desktop for Mini mill</td>
+<td>UP - Inspected briefly. Device is up and running. Not too dusty. [connor @ 4/26/2018 16:21]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT033" target="_blank" name="AMT033">AMT033</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT033.log" target="_blank">[log]</a></td>
+<td>Bench Grinder</td>
+<td>up. Tool inspected and tested [davidl @ 1/4/18 20:43]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT034" target="_blank" name="AMT034">AMT034</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT034.log" target="_blank">[log]</a></td>
+<td>Air compressor</td>
+<td>Gone. Was too rusty to salvage [Crafty @ 8/16/17 14:38]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT035" target="_blank" name="AMT035">AMT035</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT035.log" target="_blank">[log]</a></td>
+<td>AMT metal vacuum</td>
+<td>Metal Vacuum Up and running [d_limiter @ 2/6/18 21:53]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT037" target="_blank" name="AMT037">AMT037</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT037.log" target="_blank">[log]</a></td>
+<td>Honeywell Air Purifier #2</td>
+<td>Filters cleanes, housing dusted 04/08/18 [joel.richmond85 @ 4/8/2018 11:43]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT038" target="_blank" name="AMT038">AMT038</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT038.log" target="_blank">[log]</a></td>
+<td>GUIDO</td>
+<td>Up Pierre has signed up to take care of it. [crafty @ 1/16/17 16:04]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT039" target="_blank" name="AMT039">AMT039</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT039.log" target="_blank">[log]</a></td>
+<td>Linclon electric weldpac</td>
+<td>Up - At DSC [Crafty @ 8/16/17 14:40]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT041" target="_blank" name="AMT041">AMT041</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT041.log" target="_blank">[log]</a></td>
+<td>BigTV</td>
+<td>Up [theperfectstraw @ 2/12/18 14:34]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT042" target="_blank" name="AMT042">AMT042</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT042.log" target="_blank">[log]</a></td>
+<td>FileServer</td>
+<td>Up [theperfectstraw @ 2/12/18 14:37]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT043" target="_blank" name="AMT043">AMT043</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT043.log" target="_blank">[log]</a></td>
+<td>Eyefi Camera</td>
+<td>Down - We think forever as eyefi service doesn't work anymore [Crafty @ 8/16/17 14:46]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT044" target="_blank" name="AMT044">AMT044</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT044.log" target="_blank">[log]</a></td>
+<td>Old 3D printer Computer</td>
+<td>Open for repurposing. [dags @ 8/2/17 19:16]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT045" target="_blank" name="AMT045">AMT045</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT045.log" target="_blank">[log]</a></td>
+<td>Printer</td>
+<td>- Up - ink cartridge replaced [crafty @ 1/3/18 15:55]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT046" target="_blank" name="AMT046">AMT046</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT046.log" target="_blank">[log]</a></td>
+<td>RPi - surveillance</td>
+<td>Up [theperfectstraw @ 2/12/18 14:44]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT047" target="_blank" name="AMT047">AMT047</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT047.log" target="_blank">[log]</a></td>
+<td>Vinyl Cutter</td>
+<td>New blades ordered [Hylyx @ 3/7/18 16:31]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT048" target="_blank" name="AMT048">AMT048</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT048.log" target="_blank">[log]</a></td>
+<td>Vinyl laptop</td>
+<td>Up [theperfectstraw @ 2/12/18 14:45]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT049" target="_blank" name="AMT049">AMT049</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT049.log" target="_blank">[log]</a></td>
+<td>Shape OKO</td>
+<td>In Storage - Pending final disposition [Crafty @ 8/16/17 14:47]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT050" target="_blank" name="AMT050">AMT050</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT050.log" target="_blank">[log]</a></td>
+<td>Shape OKO - laptop</td>
+<td>up Tool inspected and tested [davidl @ 1/4/18 20:12]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT051" target="_blank" name="AMT051">AMT051</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT051.log" target="_blank">[log]</a></td>
+<td>Handset - Phone</td>
+<td>Up [theperfectstraw @ 2/12/18 15:07]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT052" target="_blank" name="AMT052">AMT052</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT052.log" target="_blank">[log]</a></td>
+<td>HAKO Soldering station</td>
+<td>down, needs new parts [whamodyne @ 3/24/17 17:01]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT054" target="_blank" name="AMT054">AMT054</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT054.log" target="_blank">[log]</a></td>
+<td>Microscope</td>
+<td>Up [Crafty @ 8/16/17 14:48]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT055" target="_blank" name="AMT055">AMT055</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT055.log" target="_blank">[log]</a></td>
+<td>Honeywell AirPurifier #3</td>
+<td>cleaned 1/2/18 @ 14:30 [loristein @ 1/2/18 18:23]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT056" target="_blank" name="AMT056">AMT056</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT056.log" target="_blank">[log]</a></td>
+<td>Apple Airport #1</td>
+<td>Gone - Recycled [Crafty @ 8/16/17 14:50]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT057" target="_blank" name="AMT057">AMT057</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT057.log" target="_blank">[log]</a></td>
+<td>ObiHai VoIP</td>
+<td>Gone - replaced by AMT168 [hollym @ 12/18/17 18:25]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT058" target="_blank" name="AMT058">AMT058</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT058.log" target="_blank">[log]</a></td>
+<td>MAC Mini #1</td>
+<td>Up - Check cabling if any network issue [brycenesbitt @ 12/18/16 23:38]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT059" target="_blank" name="AMT059">AMT059</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT059.log" target="_blank">[log]</a></td>
+<td>Stefan's machine</td>
+<td>Gone [theperfectstraw @ 2/13/18 15:01]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT060" target="_blank" name="AMT060">AMT060</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT060.log" target="_blank">[log]</a></td>
+<td>Metal cutting bandsaw, horizontal</td>
+<td>up - horizontal metal cutting band saw. Adjusted tracking and blade runs true again. Cleaned and tested machine. [d_limiter @ 1/8/18 10:50]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT061" target="_blank" name="AMT061">AMT061</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT061.log" target="_blank">[log]</a></td>
+<td>Taige jewelers lathe</td>
+<td>Up [steveberl @ 9/28/16 16:48]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT062" target="_blank" name="AMT062">AMT062</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT062.log" target="_blank">[log]</a></td>
+<td>Delta scroll saw</td>
+<td>Gone [theperfectstraw @ 2/12/18 15:35]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT063" target="_blank" name="AMT063">AMT063</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT063.log" target="_blank">[log]</a></td>
+<td>Variable speed wood lathe</td>
+<td>Up [fitzhugh @ 11/23/16 17:12]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT064" target="_blank" name="AMT064">AMT064</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT064.log" target="_blank">[log]</a></td>
+<td>Mini wood working Lathe</td>
+<td>Gone [theperfectstraw @ 2/12/18 15:36]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT065" target="_blank" name="AMT065">AMT065</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT065.log" target="_blank">[log]</a></td>
+<td>Horizontal Band Saw - Metal</td>
+<td>Gone [theperfectstraw @ 2/12/18 15:36]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT066" target="_blank" name="AMT066">AMT066</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT066.log" target="_blank">[log]</a></td>
+<td>Chop Saw - Wood</td>
+<td>Gone - Loaner is AMT115 [crafty @ 1/30/17 12:36]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT067" target="_blank" name="AMT067">AMT067</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT067.log" target="_blank">[log]</a></td>
+<td>Dirt Devil Pressure Washer</td>
+<td>In Storage - Pending next dump run [Crafty @ 8/16/17 14:52]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT068" target="_blank" name="AMT068">AMT068</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT068.log" target="_blank">[log]</a></td>
+<td>Apple Airport #2</td>
+<td>Gone [theperfectstraw @ 2/13/18 15:02]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT069" target="_blank" name="AMT069">AMT069</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT069.log" target="_blank">[log]</a></td>
+<td>E - Fileserver</td>
+<td>UP - Repurposed as AMT CNC Toolchain PC [connor @ 4/26/2018 13:11]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT070" target="_blank" name="AMT070">AMT070</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT070.log" target="_blank">[log]</a></td>
+<td>AMT Design Cad Station</td>
+<td>Up - Not connected to printer. needs maintenance. and credentials [crafty @ 3/13/18 12:52]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT071" target="_blank" name="AMT071">AMT071</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT071.log" target="_blank">[log]</a></td>
+<td>Monitor</td>
+<td>Up [theperfectstraw @ 2/12/18 15:40]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT072" target="_blank" name="AMT072">AMT072</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT072.log" target="_blank">[log]</a></td>
+<td>Monitor</td>
+<td>Up [theperfectstraw @ 2/12/18 15:41]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT073" target="_blank" name="AMT073">AMT073</a></td>
+<td></td>
+<td>Epson Projector</td>
+<td>Up</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT074" target="_blank" name="AMT074">AMT074</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT074.log" target="_blank">[log]</a></td>
+<td>Metal cutting vertical bandsaw</td>
+<td>up. Tool inspected and tested. Asset tag missing.oiled and wiped down saw [davidl @ 1/4/18 21:13]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT075" target="_blank" name="AMT075">AMT075</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT075.log" target="_blank">[log]</a></td>
+<td>Bose McSpeakerson (speaker)</td>
+<td>Gone [theperfectstraw @ 2/13/18 15:20]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT076" target="_blank" name="AMT076">AMT076</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT076.log" target="_blank">[log]</a></td>
+<td>Delta Model 17-965 Standing Drill Press</td>
+<td>up - plastic knob on right side motor tension screw is loose. Suggest replacing with an all metal thumbscrew [davidl @ 1/4/18 20:13]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT077" target="_blank" name="AMT077">AMT077</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT077.log" target="_blank">[log]</a></td>
+<td>Porter Cable Plate or Biscuit Joiner Model 556</td>
+<td>up. Tool inspected and tested [davidl @ 1/4/18 20:43]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT078" target="_blank" name="AMT078">AMT078</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT078.log" target="_blank">[log]</a></td>
+<td>Delta Model 35-670 10' Table Saw w/ bench dog Router Table &amp; Lift</td>
+<td>Waxed and cleaned. Small burs on router side channel [joel.richmond85 @ 3/14/2018 0:56]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT079" target="_blank" name="AMT079">AMT079</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT079.log" target="_blank">[log]</a></td>
+<td>JET 14' Deluxe Bandsaw</td>
+<td>UP [crafty @ 5/5/18 12:07]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT080" target="_blank" name="AMT080">AMT080</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT080.log" target="_blank">[log]</a></td>
+<td>Jet 6" Long Bed Jointer</td>
+<td>Waxed and cleaned however 2 out of the three Cutter guard spring screws are missing. [joel.richmond85 @ 3/14/2018 0:58]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT081" target="_blank" name="AMT081">AMT081</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT081.log" target="_blank">[log]</a></td>
+<td>Porter Cable Router in router table</td>
+<td>Replaced with New one. Old one Moved to the CNC Router Numbers coming soon. [crafty @ 4/14/2018 9:20]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT083" target="_blank" name="AMT083">AMT083</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT083.log" target="_blank">[log]</a></td>
+<td>Makita 2012nb planer</td>
+<td>UP - Colm re-straighten the blade guide [crafty @ 2/7/18 11:00]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT084" target="_blank" name="AMT084">AMT084</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT084.log" target="_blank">[log]</a></td>
+<td>Garrett Metal Detector Model 1165190</td>
+<td>Up [fitzhugh @ 1/22/17 13:42]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT085" target="_blank" name="AMT085">AMT085</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT085.log" target="_blank">[log]</a></td>
+<td>Jet mobile dust collector</td>
+<td>Jet dust collector up and running. The lower plastic collection bag had a rip in it. I replaced it with a contractor bag, but we may want to see about replacing it with a cloth dust collection bag. [d_limiter @ 2/6/18 21:56]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT086" target="_blank" name="AMT086">AMT086</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT086.log" target="_blank">[log]</a></td>
+<td>DVR for Camera System</td>
+<td>Up [theperfectstraw @ 2/12/18 15:48]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT087" target="_blank" name="AMT087">AMT087</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT087.log" target="_blank">[log]</a></td>
+<td>Fridge</td>
+<td>cleaned 8/15/17 [gach145 @ 8/17/17 01:40]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT088" target="_blank" name="AMT088">AMT088</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT088.log" target="_blank">[log]</a></td>
+<td>Microwave</td>
+<td>Up, needs new blades [nys @ 11/30/17 20:19]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT089" target="_blank" name="AMT089">AMT089</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT089.log" target="_blank">[log]</a></td>
+<td>3D Printer Computer - Dell</td>
+<td>UP - cleaned out download dir; desktop; reinstalled Makerbot software [mkeveney @ 8/19/17 15:15]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT092" target="_blank" name="AMT092">AMT092</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT092.log" target="_blank">[log]</a></td>
+<td>Panel Saw</td>
+<td>Up Maintenance completed, case cleaned, blade checked, pullies lubricated (graphite), runners lubricated (paste wax) [colm @ 1/30/18 09:54]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT094" target="_blank" name="AMT094">AMT094</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT094.log" target="_blank">[log]</a></td>
+<td>Dremel Scroll Saw</td>
+<td>Up - fixed so it now works mostly depending on your blades. [austinwestyoung @ 2/28/18 17:13]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT095" target="_blank" name="AMT095">AMT095</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT095.log" target="_blank">[log]</a></td>
+<td>MacBook Air 13''</td>
+<td>UP! Back in action upstairs on the shelf [connor @ 1/4/18 00:03]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT096" target="_blank" name="AMT096">AMT096</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT096.log" target="_blank">[log]</a></td>
+<td>4411 HD Singer Sewing Machine</td>
+<td>Down - Needs help with bobbin and two plate screws. [crafty @ 2/28/17 11:17]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT097" target="_blank" name="AMT097">AMT097</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT097.log" target="_blank">[log]</a></td>
+<td>410A Singer Sewing machine</td>
+<td>Gone for good :'( [nys @ 10/11/16 15:31]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT098" target="_blank" name="AMT098">AMT098</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT098.log" target="_blank">[log]</a></td>
+<td>Kegorator</td>
+<td>Up but beer running low [crafty @ 2/23/17 19:13]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT099" target="_blank" name="AMT099">AMT099</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT099.log" target="_blank">[log]</a></td>
+<td>Dymo LabelWriter 450</td>
+<td>Up [theperfectstraw @ 2/12/18 16:07]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT100" target="_blank" name="AMT100">AMT100</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT100.log" target="_blank">[log]</a></td>
+<td>MacBook Pro 15''</td>
+<td>UP! With a brand new charger (Thanks Crafty!) [connor @ 1/4/18 00:04]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT101" target="_blank" name="AMT101">AMT101</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT101.log" target="_blank">[log]</a></td>
+<td>MacBook Air 13''</td>
+<td>Gone [theperfectstraw @ 2/13/18 15:19]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT102" target="_blank" name="AMT102">AMT102</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT102.log" target="_blank">[log]</a></td>
+<td>MacBook Air 13''</td>
+<td>UP and available for use! [connor @ 2/8/18 16:36]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT103" target="_blank" name="AMT103">AMT103</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT103.log" target="_blank">[log]</a></td>
+<td>MacBook Pro 13''</td>
+<td>Up Good working order. Has Fusion 360 and Adobe Photoshop, Illustrator, InDesign [connor @ 12/13/17 21:05]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT106" target="_blank" name="AMT106">AMT106</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT106.log" target="_blank">[log]</a></td>
+<td>WiFi Access Point Nighthawk R6400 Series.</td>
+<td>Up - Powercycling it seemed to work. we have interwebs now. [crafty @ 12/28/17 18:31]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT107" target="_blank" name="AMT107">AMT107</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT107.log" target="_blank">[log]</a></td>
+<td>Hot Air SMT Rework Machine, CSI853B+</td>
+<td>Up. Cleaned and ready to go. The thing loves to melt nearby plastic: keep plastic and small children away. (edited) [brycenesbitt @ 7/24/17 22:41]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT108" target="_blank" name="AMT108">AMT108</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT108.log" target="_blank">[log]</a></td>
+<td>Overhead Filter</td>
+<td>up - cleaned on 04/08/18, new 14x20x1 filter needed soon. [joel.richmond85 @ 4/8/2018 11:45]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT110" target="_blank" name="AMT110">AMT110</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT110.log" target="_blank">[log]</a></td>
+<td>Singer Sewing Machine</td>
+<td>Up - But skipping stitches. Needs repair. [crafty @ 12/3/16 13:10]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT112" target="_blank" name="AMT112">AMT112</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT112.log" target="_blank">[log]</a></td>
+<td>Skillsaw</td>
+<td>Up The Skill Saw is not the source of the broken ground pin. [cdbradley @ 1/24/18 23:38]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT113" target="_blank" name="AMT113">AMT113</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT113.log" target="_blank">[log]</a></td>
+<td>Sawsall</td>
+<td>up. Tool inspected and tested. Asset tag is missing. Power cord had a frayed section, but the current carrying wire were undamaged. Area wrapped with electrical tape. [davidl @ 1/4/18 20:32]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT114" target="_blank" name="AMT114">AMT114</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT114.log" target="_blank">[log]</a></td>
+<td>pony clamp</td>
+<td>Up [fitzhugh @ 1/22/17 13:40]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT115" target="_blank" name="AMT115">AMT115</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT115.log" target="_blank">[log]</a></td>
+<td>Craftsman Miter Saw</td>
+<td>up. Tool inspected and tested [davidl @ 1/4/18 20:19]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT116" target="_blank" name="AMT116">AMT116</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT116.log" target="_blank">[log]</a></td>
+<td>Dewalt Palm Grip Sander and Template</td>
+<td>up. Tool inspected and tested [davidl @ 1/4/18 20:34]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT117" target="_blank" name="AMT117">AMT117</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT117.log" target="_blank">[log]</a></td>
+<td>Belt Sander</td>
+<td>up. Tool inspected and tested. Asset tag missing. [Davidl @ 1/4/18 20:41]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT118" target="_blank" name="AMT118">AMT118</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT118.log" target="_blank">[log]</a></td>
+<td>Big Vlad the Vending Machine</td>
+<td>Build in progress [crafty @ 10/3/17 09:48]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT120" target="_blank" name="AMT120">AMT120</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT120.log" target="_blank">[log]</a></td>
+<td>Prusa I3 Mk2 (Orange and black 3d printer)</td>
+<td>Back online. [mkeveney @ 2/6/18 16:41]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT121" target="_blank" name="AMT121">AMT121</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT121.log" target="_blank">[log]</a></td>
+<td>Circular saw</td>
+<td>is dead and will not be returning to us [colm @ 5/10/18 22:20]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT122" target="_blank" name="AMT122">AMT122</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT122.log" target="_blank">[log]</a></td>
+<td>1/3 sheet sander</td>
+<td>up [fitzhugh @ 2/27/17 01:00]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT123" target="_blank" name="AMT123">AMT123</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT123.log" target="_blank">[log]</a></td>
+<td>Logic Analyzer Digital/Analog</td>
+<td>Down - USB connection keeps resetting. Unable to communicate with Saleae Logic app on both Mac and Windows. [gautam @ 2/3/18 11:45]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT124" target="_blank" name="AMT124">AMT124</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT124.log" target="_blank">[log]</a></td>
+<td>Craftsman Wood Lathe</td>
+<td>back up, speed controller rewired and extended. [colm @ 5/4/2018 19:34]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT125" target="_blank" name="AMT125">AMT125</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT125.log" target="_blank">[log]</a></td>
+<td>Boston Paper Cutter</td>
+<td>Up [wnorman27 @ 3/7/17 10:58]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT126" target="_blank" name="AMT126">AMT126</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT126.log" target="_blank">[log]</a></td>
+<td>Acer H236HL 23" Monitor</td>
+<td>{working} [nys @ 3/19/17 13:29]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT127" target="_blank" name="AMT127">AMT127</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT127.log" target="_blank">[log]</a></td>
+<td>ViewSonic 21.5" Monitor</td>
+<td>{working} [nys @ 3/19/17 13:29]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT128" target="_blank" name="AMT128">AMT128</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT128.log" target="_blank">[log]</a></td>
+<td>ViewSonic 21.5" Monitor #2</td>
+<td>{working} [nys @ 3/19/17 13:29]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT129" target="_blank" name="AMT129">AMT129</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT129.log" target="_blank">[log]</a></td>
+<td>Hantek DSO5072P Oscilloscope</td>
+<td>Up and New [whamodyne @ 4/11/17 11:12]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT130" target="_blank" name="AMT130">AMT130</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT130.log" target="_blank">[log]</a></td>
+<td>Shop Exhaust Fan</td>
+<td>Shop exhaust fan up and running [d_limiter @ 2/6/18 21:58]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT131" target="_blank" name="AMT131">AMT131</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT131.log" target="_blank">[log]</a></td>
+<td>WD Mycloud Fileserver 4TB NAS</td>
+<td>Up. Added asset tag to device! [connor @ 5/15/17 18:34]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT133" target="_blank" name="AMT133">AMT133</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT133.log" target="_blank">[log]</a></td>
+<td>Oscillating Edge/Belt Spindle Sander</td>
+<td>up Tool inspected and tested [davidl @ 1/4/18 20:16]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT134" target="_blank" name="AMT134">AMT134</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT134.log" target="_blank">[log]</a></td>
+<td>Mini USB Microscope</td>
+<td>New in box ready to go [brycenesbitt @ 5/23/17 13:21] [brycenesbitt @ 1/4/18 20:25]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT135" target="_blank" name="AMT135">AMT135</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT135.log" target="_blank">[log]</a></td>
+<td>Makita 18V Impact Driver</td>
+<td>Down - Charger broken but battery seems okay [crafty @ 3/15/2018 21:15]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT136" target="_blank" name="AMT136">AMT136</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT136.log" target="_blank">[log]</a></td>
+<td>Makita 18V Variable Speed Drill</td>
+<td>Down - Charger broken but battery seems okay [crafty @ 3/15/2018 21:15]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT137" target="_blank" name="AMT137">AMT137</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT137.log" target="_blank">[log]</a></td>
+<td>10" DeWalt Miter Saw</td>
+<td>up. Tool inspected and tested. Asset tag missing. [davidl @ 1/4/18 20:20]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT138" target="_blank" name="AMT138">AMT138</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT138.log" target="_blank">[log]</a></td>
+<td>Variac Transformer</td>
+<td>Up - New [whamodyne @ 5/28/17 10:51]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT139" target="_blank" name="AMT139">AMT139</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT139.log" target="_blank">[log]</a></td>
+<td>Brother Ink Level Reset Tool</td>
+<td>Gone - Replacement ordered should be here by Nov. 1 [crafty @ 10/29/17 08:13]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT140" target="_blank" name="AMT140">AMT140</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT140.log" target="_blank">[log]</a></td>
+<td>Cyclone Dust Collector</td>
+<td>Up - checked all the seals/joints and cleared the gates. Some of the joints were sealed with duct tape, replaced that with metal repair tape. Modified the connection to the panel saw to be more robust and sealed with metal repair tape. [this.is.victor @ 3/17/2018 11:16]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT141" target="_blank" name="AMT141">AMT141</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT141.log" target="_blank">[log]</a></td>
+<td>Epson 9880 Wide Format Printer</td>
+<td>Up - Replaced: C, M. [emorydunn @ 4/9/2018 21:51]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT142" target="_blank" name="AMT142">AMT142</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT142.log" target="_blank">[log]</a></td>
+<td>Dust Kit - Universal small port hose kit</td>
+<td>A little dusty [nys @ 7/12/17 16:29]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT143" target="_blank" name="AMT143">AMT143</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT143.log" target="_blank">[log]</a></td>
+<td>MacBook Pro 15''</td>
+<td>Down. Out for repair! [connor @ 9/22/17 12:04]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT144" target="_blank" name="AMT144">AMT144</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT144.log" target="_blank">[log]</a></td>
+<td>Comcast box</td>
+<td>- Up - Went down yesterday. Power cycled today. Everything looks up. [crafty @ 12/27/17 10:11]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT149" target="_blank" name="AMT149">AMT149</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT149.log" target="_blank">[log]</a></td>
+<td>CNC Mill Monitors</td>
+<td>up [renagirl9 @ 8/5/17 13:20]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT150" target="_blank" name="AMT150">AMT150</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT150.log" target="_blank">[log]</a></td>
+<td>3D Printing Samsung Monitor</td>
+<td>up [renagirl9 @ 8/5/17 13:34]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT151" target="_blank" name="AMT151">AMT151</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT151.log" target="_blank">[log]</a></td>
+<td>Black Dirt Devil upright vacuum</td>
+<td>Up [austinwestyoung @ 8/9/17 15:03]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT152" target="_blank" name="AMT152">AMT152</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT152.log" target="_blank">[log]</a></td>
+<td>Red Dirt Devil Upright vacuum</td>
+<td>Up [austinwestyoung @ 8/9/17 15:03]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT153" target="_blank" name="AMT153">AMT153</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT153.log" target="_blank">[log]</a></td>
+<td>Laser blower fan</td>
+<td>Front grill cleaned, checked. Will need blades cleaned in next month or so. [joshr @ 4/19/18 15:20]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT154" target="_blank" name="AMT154">AMT154</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT154.log" target="_blank">[log]</a></td>
+<td>LG 22" HDMI / VGA Monitor</td>
+<td>up [patricks-d @ 8/16/17 21:09]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT155" target="_blank" name="AMT155">AMT155</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT155.log" target="_blank">[log]</a></td>
+<td>Gigabit Switch - D-link DGS2208</td>
+<td>Working [bskyescott @ 9/13/17 17:13]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT156" target="_blank" name="AMT156">AMT156</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT156.log" target="_blank">[log]</a></td>
+<td>TP-Link AC1750 Router</td>
+<td>- Up - Static IP set up. [crafty @ 12/4/17 15:13]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT157" target="_blank" name="AMT157">AMT157</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT157.log" target="_blank">[log]</a></td>
+<td>Vortex Fan (in coworking space)</td>
+<td>Up. Taken down and cleaned some, seems to be blowing on power up. [joshr @ 2/19/18 21:01]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT158" target="_blank" name="AMT158">AMT158</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT158.log" target="_blank">[log]</a></td>
+<td>Laser computer monitor</td>
+<td>working [nys @ 9/25/17 20:09]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT159" target="_blank" name="AMT159">AMT159</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT159.log" target="_blank">[log]</a></td>
+<td>CNC Router / Engraver Monitor</td>
+<td>working [nys @ 9/25/17 20:10]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT160" target="_blank" name="AMT160">AMT160</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT160.log" target="_blank">[log]</a></td>
+<td>CyberPower 1500VA UPS</td>
+<td>Up [theperfectstraw @ 2/12/18 16:29]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT161" target="_blank" name="AMT161">AMT161</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT161.log" target="_blank">[log]</a></td>
+<td>Laser computer</td>
+<td>network issue fixed by connor, took back my wireless dongle [joshr @ 12/30/17 15:16]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT162" target="_blank" name="AMT162">AMT162</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT162.log" target="_blank">[log]</a></td>
+<td>Laser monitor</td>
+<td>up [nys @ 11/6/17 16:42]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT163" target="_blank" name="AMT163">AMT163</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT163.log" target="_blank">[log]</a></td>
+<td>Bike Tool Kit</td>
+<td>Network Switch: Beer Closet it UP! [connor @ 12/18/17 14:40]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT165" target="_blank" name="AMT165">AMT165</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT165.log" target="_blank">[log]</a></td>
+<td>Ink cartridge resetter</td>
+<td>up [pierre @ 11/19/17 20:21]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT167" target="_blank" name="AMT167">AMT167</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT167.log" target="_blank">[log]</a></td>
+<td>Network switch</td>
+<td>Up - asset labeled [hollym @ 12/18/17 19:30]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT168" target="_blank" name="AMT168">AMT168</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT168.log" target="_blank">[log]</a></td>
+<td>Obi Hai Voip Box</td>
+<td>Up [hollym @ 12/18/17 18:26]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT169" target="_blank" name="AMT169">AMT169</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT169.log" target="_blank">[log]</a></td>
+<td>Ridgid 3 gal Shop Vac for Laser</td>
+<td>Up. Cleared out, also put a HEPA filter onto the vac as we are using it to suck up fine powder like dust from laser room filters. [joshr @ 5/6/18 11:00]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT170" target="_blank" name="AMT170">AMT170</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT170.log" target="_blank">[log]</a></td>
+<td>Wilton drill press cross vice</td>
+<td>Drill press cross slide vise is up. Cleaned and lubricated [d_limiter @ 2/12/18 21:01]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT172" target="_blank" name="AMT172">AMT172</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT172.log" target="_blank">[log]</a></td>
+<td>Small rigid shop vac</td>
+<td>up [renagirl9 @ 2/7/18 15:49]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT173" target="_blank" name="AMT173">AMT173</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT173.log" target="_blank">[log]</a></td>
+<td>Metabo Variable Speed Angle Grinder</td>
+<td>up [renagirl9 @ 2/7/18 16:14]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT174" target="_blank" name="AMT174">AMT174</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT174.log" target="_blank">[log]</a></td>
+<td>Flex Angle Grinder</td>
+<td>up [robfroetscher @ 3/13/2018 12:43]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT175" target="_blank" name="AMT175">AMT175</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT175.log" target="_blank">[log]</a></td>
+<td>Makita Disk Sander</td>
+<td>up [renagirl9 @ 2/7/18 16:24]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT176" target="_blank" name="AMT176">AMT176</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT176.log" target="_blank">[log]</a></td>
+<td>Makita Die Grinder</td>
+<td>up [renagirl9 @ 2/7/18 16:27]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT177" target="_blank" name="AMT177">AMT177</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT177.log" target="_blank">[log]</a></td>
+<td>Mystery Grinder</td>
+<td>up [renagirl9 @ 2/7/18 16:34]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT178" target="_blank" name="AMT178">AMT178</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT178.log" target="_blank">[log]</a></td>
+<td>Porter Cable Router</td>
+<td>up [renagirl9 @ 2/7/18 16:41]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT179" target="_blank" name="AMT179">AMT179</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT179.log" target="_blank">[log]</a></td>
+<td>Ryobi Router</td>
+<td>up [renagirl9 @ 2/7/18 16:46]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT180" target="_blank" name="AMT180">AMT180</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT180.log" target="_blank">[log]</a></td>
+<td>Decker Random Orbital Sander</td>
+<td>up [renagirl9 @ 2/7/18 16:51]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT181" target="_blank" name="AMT181">AMT181</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT181.log" target="_blank">[log]</a></td>
+<td>Ryobi Detail Sander</td>
+<td>up [renagirl9 @ 2/7/18 16:59]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT182" target="_blank" name="AMT182">AMT182</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT182.log" target="_blank">[log]</a></td>
+<td></td>
+<td>Metal cut off saw is up. [d_limiter @ 2/12/18 21:59]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT184" target="_blank" name="AMT184">AMT184</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT184.log" target="_blank">[log]</a></td>
+<td>Harbor Freight Cut Off Saw</td>
+<td>up [renagirl9 @ 3/11/18 14:59]</td>
+</tr>
+<tr>
+<td><a href="http://wiki.acemonstertoys.org/AMT185" target="_blank" name="AMT185">AMT185</a></td>
+<td><a href="http://acemonstertoys.org/assets/data/AMT185.log" target="_blank">[log]</a></td>
+<td></td>
+<td>up [robfroetscher @ 3/20/2018 11:29]</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<!-- Panel two Status Update Form. Needs to be wired to the database. -->
+<strong>Make Status Updates</strong>
+
+<form action="http://acemonstertoys.org/assets/" method="POST">
+<dl>
+ 	<dt>Asset ID:</dt>
+ 	<dd><input name="asset" type="text" value="" /></dd>
+ 	<dt>Your slack id:</dt>
+ 	<dd><input name="nick" type="text" /></dd>
+ 	<dt>Current Status:</dt>
+ 	<dd><input name="value" type="text" /></dd>
+ 	<dt></dt>
+ 	<dd><input class="btn-stat" type="submit" /></dd>
+</dl>
+</form>
+
+<!-- Panel 3. New Asset Form. Needs to be wired to the database. -->
+
+<strong>Make Status Updates</strong>
+
+<form action="http://acemonstertoys.org/assets/" method="POST">
+<dl>
+ 	<dt>Asset ID:</dt>
+ 	<dd>[AMTXXX number generated automatically]</dd>
+ 	<dt>Item Description</dt>
+ 	<dd><input name="nick" type="text" /></dd>
+ 	<dt>Location in the Space:</dt>
+ 	<dd><input name="value" type="text" /></dd>
+ 	<dt>Purchase or Loan?</dt>
+ 	<dd><input type="radio" name="gender" value="Purchased"> Purchase   
+  <input type="radio" name="gender" value="Loaned"> Loan</dd>
+ 	<dt>If loaned, name of owner:</dt>
+ 	<dd><input name="value" type="text" /></dd>
+ 	<dt>Value:</dt>
+ 	<dd><input name="value" type="text" /></dd>
+ 	<dt>Source:</dt>
+ 	<dd><input name="value" type="text" /></dd>
+ 	<dt>Date of Acquisition:</dt>
+ 	<dd><input name="value" type="text" /></dd>
+ 	<dt>Donation of Labor ($value):</dt>
+ 	<dd><input name="value" type="text" /></dd>
+ 	<dt>Depreciation Scheuled:</dt>
+ 	<dd><input name="value" type="text" /></dd>
+ 	<dt>Date of Disposal:</dt>
+ 	<dd><input name="value" type="text" /></dd>
+ 	<dt>Method of disposal:</dt>
+ 	<dd><input name="value" type="text" /></dd>
+ 	<dt>Proceeds from Sale:</dt>
+ 	<dd><input name="value" type="text" /></dd>
+ 	<dt>Notes:</dt>
+ 	<dd><textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea></dd>
+ 	<dt>Location</dt>
+ 	<dd><input name="value" type="text" /></dd>
+ 	<dt>Location</dt>
+ 	<dd><input name="value" type="text" /></dd>
+ 	<dt></dt>
+ 	<dd><input class="btn-stat" type="submit" /></dd>
+</dl>
+</form>
+
+<!-- Panel 4. Edit Asset Form. Needs to be wired to the database. -->
+Edit Asset
+
+<strong>Change an existing asset record</strong>
+
+(this is the complete record, not the status, use wisely)
+
+<form action="http://acemonstertoys.org/assets/" method="POST">
+<dl>
+ 	<dt>Look Up Asset ID:</dt>
+ 	<dd><input name="asset" type="text" value="" /></dd>
+ 	<dd><input class="btn-stat" type="submit" /></dd>
+</dl>
+</form>

@@ -994,7 +994,7 @@ this would be a table similar to  the existing table... I big ole list of all t
 
 <!-- Panel 3. New Asset Form. Needs to be wired to the database. -->
 
-<strong>Make Status Updates</strong>
+<strong>New Asset</strong>
 
 <form action="http://acemonstertoys.org/assets/" method="POST">
 <dl>

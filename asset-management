@@ -1050,3 +1050,5 @@ Edit Asset
  	<dd><input class="btn-stat" type="submit" /></dd>
 </dl>
 </form>
+
+After hitting submit it woudld bring up a form similar to the "add Asset" form with the data matching the searched asset, on that form upon submission it wouild edit the record of that form.
